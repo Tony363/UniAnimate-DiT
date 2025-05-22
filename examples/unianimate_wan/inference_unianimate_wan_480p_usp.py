@@ -43,7 +43,7 @@ misc_size = [height,width]
 # snapshot_download("Wan-AI/Wan2.1-I2V-14B-720P", local_dir="./Wan2.1-I2V-14B-720P")
 
 # Load models
-model_manager = ModelManager(device="cpu")
+model_manager = ModelManager(device="cuda") # TONY CHANGED HERE
 model_manager.load_models(
     ["./Wan2.1-I2V-14B-720P/models_clip_open-clip-xlm-roberta-large-vit-huge-14.pth"],
     torch_dtype=torch.float32, # Image Encoder is loaded with float32
