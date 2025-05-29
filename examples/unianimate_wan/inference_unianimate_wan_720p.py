@@ -28,12 +28,14 @@ use_teacache = False
 
 test_list_path= [
     # Format: [frame_interval, reference image, driving pose sequence]
-    [1, "data/images/WOMEN-Blouses_Shirts-id_00004955-01_4_full.jpg", "data/saved_pose/WOMEN-Blouses_Shirts-id_00004955-01_4_full"],
-    [1, "data/images/musk.jpg", "data/saved_pose/musk"],
-    [1, "data/images/WOMEN-Blouses_Shirts-id_00005125-03_4_full.jpg", "data/saved_pose/WOMEN-Blouses_Shirts-id_00005125-03_4_full"],
-    [1, "data/images/IMG_20240514_104337.jpg", "data/saved_pose/IMG_20240514_104337"],
-    [1, "data/images/10.jpg", "data/saved_pose/10"],
-    [1, "data/images/taiyi2.jpg", "data/saved_pose/taiyi2"],
+    [1,"data/images/episode_test.jpg", "data/saved_pose/WOMEN-Blouses_Shirts-id_00004955-01_4_full"],
+    [1, "data/images/test_episode2.jpg", "data/saved_pose/WOMEN-Blouses_Shirts-id_00004955-01_4_full"],
+    # [1, "data/images/WOMEN-Blouses_Shirts-id_00004955-01_4_full.jpg", "data/saved_pose/WOMEN-Blouses_Shirts-id_00004955-01_4_full"],
+    # [1, "data/images/musk.jpg", "data/saved_pose/musk"],
+    # [1, "data/images/WOMEN-Blouses_Shirts-id_00005125-03_4_full.jpg", "data/saved_pose/WOMEN-Blouses_Shirts-id_00005125-03_4_full"],
+    # [1, "data/images/IMG_20240514_104337.jpg", "data/saved_pose/IMG_20240514_104337"],
+    # [1, "data/images/10.jpg", "data/saved_pose/10"],
+    # [1, "data/images/taiyi2.jpg", "data/saved_pose/taiyi2"],
 ]
 
 misc_size = [height,width]
